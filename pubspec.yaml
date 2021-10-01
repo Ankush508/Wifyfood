@@ -1,0 +1,258 @@
+name: wifyfood
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+3
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  http: ^0.13.3
+  fluttertoast: ^7.1.6
+  flutter_svg: ^0.19.2+1
+  image_picker: ^0.8.1+3
+  intl: any
+  geolocator: ^7.2.0+1
+  shared_preferences: ^2.0.6
+  google_maps_flutter: ^2.0.6
+  provider: ^4.3.3
+  share: ^0.6.5+4
+  string_validator: ^0.1.4
+  geocoder: ^0.2.1
+  geocode: ^1.0.1
+  image_cropper: ^1.3.1
+  device_info: ^2.0.2
+  firebase_messaging: ^10.0.4
+  flutter_polyline_points: ^0.2.4
+  location: ^4.3.0
+  flutter_gifimage: ^1.0.0
+  flushbar: ^1.10.4
+  flutter_offline: ^2.0.0
+  flutter_local_notifications: ^6.0.0
+  percent_indicator: ^3.0.1
+  flutter_bloc: ^6.1.3
+  logger: ^1.0.0
+  webview_flutter: ^2.0.9
+  sms_autofill: ^2.0.0
+  firebase_core: ^1.3.0
+  carousel_slider: ^4.0.0
+  google_place: ^0.4.3
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_rating_bar: ^3.2.0+1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/33.png
+    - assets/Layer 0.png
+    - assets/Ellipse 1.png
+    - assets/wify girl.png
+    - assets/Group 671.png
+    - assets/Vector Smart Object.png
+    - assets/Icon feather-arrow-left.png
+    - assets/Icon feather-menu.png
+    - assets/Ellipse -20.png
+    - assets/kfxa2sir.png
+    - assets/Rectangle 547.png
+    - assets/Rounded Rectangle 2.png
+    - assets/Rounded Rectangle -18.png
+    - assets/Rounded Rectangle -19.png
+    - assets/Rounded Rectangle -21.png
+    - assets/xsvdtkpq.png
+    - assets/5cvz9b7i.png
+    - assets/v5kn5mqf.png
+    - assets/q4pw387q.png
+    - assets/Ellipse -18.png
+    - assets/Icon feather-camera.png
+    - assets/Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.png
+    - assets/Rectangle 138.png
+    - assets/OFF.png
+    - assets/Rectangle 139.png
+    - assets/Group -9.png
+    - assets/aa1kx9no.png
+    - assets/Rounded Rectangle -22.png
+    - assets/Rounded Rectangle -24.png
+    - assets/Rounded Rectangle -23.png
+    - assets/Rounded Rectangle -25.png
+    - assets/Icon material-done-red.png
+    - assets/Icon feather-shopping-cart.png
+    - assets/Vector Smart Object-12.png
+    - assets/Rounded Rectangle 2-user.png
+    - assets/Icon feather-home.png
+    - assets/Icon feather-home-1.png
+    - assets/Icon feather-search.png
+    - assets/Icon feather-search-1.png
+    - assets/Icon feather-user.png
+    - assets/Icon feather-user-1.png
+    - assets/Indain Veg Thali.png
+    - assets/o2jbchmu.png
+    - assets/Offer.png
+    - assets/Vector Smart Object - check.png
+    - assets/profile.png
+    - assets/grills.png
+    - assets/kalz.png
+    - assets/xenia.png
+    - assets/Group 1993.png
+    - assets/delivery_map.png
+    - assets/Group 2316.png
+    - assets/Mask Group -1.png
+    - assets/Ellipse 46.png
+    - assets/my5nmrgb.png
+    - assets/d5fvy0a9.png
+    - assets/Group 2001.png
+    - assets/veg.png
+    - assets/food-delivery.png
+    - assets/Group 2317.png
+    - assets/placeholder.png
+    - assets/delivery boy.png
+    - assets/placeholder_2.png
+    - assets/green.png
+    - assets/red.png
+    - assets/blue.png
+    - assets/amazon pay.png
+    - assets/paytm.png
+    - assets/phonpay.png
+    - assets/no image.jpg
+    - assets/fssai.png
+  # svg assets
+    - assets/svg/Vector Smart Object-6.svg
+    - assets/svg/kitchen.svg
+    - assets/svg/food orders.svg
+    - assets/svg/Icon feather-home.svg
+    - assets/svg/Icon feather-home-1.svg
+    - assets/svg/blog.svg
+    - assets/svg/blog (1).svg
+    - assets/svg/register kitchen.svg
+    - assets/svg/register kitchen (1).svg
+    - assets/svg/Icon feather-search.svg
+    - assets/svg/Icon feather-search-1.svg
+    - assets/svg/Icon feather-shopping-cart.svg
+    - assets/svg/Icon feather-user.svg
+    - assets/svg/Icon feather-user-1.svg
+    - assets/svg/bottom _user.svg
+    - assets/svg/Vector Smart Object-2.svg
+    - assets/svg/manage order.svg
+    - assets/svg/Vector Smart Object-5.svg
+    - assets/svg/Vector Smart Object-3.svg
+    - assets/svg/Vector Smart Object-1.svg
+    - assets/svg/Vector Smart Object-4.svg
+    - assets/svg/order history.svg
+    - assets/svg/dark theme.svg
+    - assets/svg/Group 2017.svg
+    - assets/svg/Icon feather-image.svg
+    - assets/svg/Icon feather-video.svg
+    - assets/svg/wify girl.svg
+    - assets/svg/Group 2019.svg
+    - assets/svg/Group 2020.svg
+    - assets/svg/order-food.svg
+    - assets/svg/food-delivery.svg
+    - assets/svg/money.svg
+    - assets/svg/money-1.svg
+    - assets/svg/menu.svg
+    - assets/svg/drop down.svg
+    - assets/svg/gift.svg
+    - assets/svg/right drop down.svg
+    - assets/svg/user.svg
+    - assets/svg/settings.svg
+    - assets/svg/share.svg
+    - assets/svg/rate us.svg
+    - assets/svg/help.svg
+    - assets/svg/logout.svg
+    - assets/svg/veg1.svg
+    - assets/svg/splash wify girl.svg
+    - assets/svg/menu items drop down.svg
+    - assets/svg/red settings.svg
+    - assets/svg/red drop down.svg
+    - assets/svg/Group 2009.svg
+    - assets/svg/Icon awesome-heart.svg
+    - assets/svg/Icon awesome-heart-red.svg
+    - assets/svg/Shape -1.svg
+    - assets/svg/Group 1994.svg
+    - assets/svg/Group 2007.svg
+    - assets/svg/Group 1998.svg
+    - assets/svg/Group 2001.svg
+    - assets/svg/d5fvy0a9.svg
+    - assets/svg/my5nmrgb.svg
+    - assets/svg/Group 2000.svg
+    - assets/svg/Icon feather-credit-card.svg
+    - assets/svg/Group 1997.svg
+    - assets/svg/Group 2005.svg
+    - assets/svg/Group 2004.svg
+    - assets/svg/Shape 1 copy 2.svg
+    - assets/svg/Shape 1 copy 4.svg
+    - assets/svg/Group 2015.svg
+    - assets/svg/Group 2013.svg
+    - assets/svg/discount.svg
+    - assets/svg/clock.svg
+    - assets/svg/green.svg
+    - assets/svg/Tracking.svg
+    - assets/svg/Tracking_red.svg
+    
+  # gif
+    - assets/gif/delivery-boy.gif
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

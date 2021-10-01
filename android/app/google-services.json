@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "650977537956",
+    "project_id": "wify-food-app",
+    "storage_bucket": "wify-food-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650977537956:android:206db4c8f5d62ca7989b31",
+        "android_client_info": {
+          "package_name": "com.developer.wifyfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650977537956-k9sp42ocr5l15c4qamlgvsnsj6flbvp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developer.wifyfood",
+            "certificate_hash": "9a2a1d2ce9ef3af4a811d3a7d3c9f8a709e6d667"
+          }
+        },
+        {
+          "client_id": "114662570175157661397",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCda_p4kUgMEhE_HzTWXYW50nUaBXttTEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114662570175157661397",
+              "client_type": 3
+            },
+            {
+              "client_id": "650977537956-4319sf35gtv5jrmdknp1eob8larlg7gb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bannotech.wifyfood"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
