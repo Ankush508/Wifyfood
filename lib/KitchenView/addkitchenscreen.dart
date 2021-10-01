@@ -13,17 +13,17 @@ import 'package:wifyfood/main.dart';
 import 'package:flutter_offline/flutter_offline.dart';
 // import 'package:connectivity/connectivity.dart';
 
-enum _PositionItemType {
-  // permission,
-  position,
-}
+// enum _PositionItemType {
+//   // permission,
+//   position,
+// }
 
-class _PositionItem {
-  _PositionItem(this.type, this.displayValue);
+// class _PositionItem {
+//   _PositionItem(this.type, this.displayValue);
 
-  final _PositionItemType type;
-  final String displayValue;
-}
+//   final _PositionItemType type;
+//   final String displayValue;
+// }
 
 // ignore: must_be_immutable
 class AddKitchenScreen extends StatefulWidget {
@@ -61,7 +61,7 @@ class _AddKitchenScreenState extends State<AddKitchenScreen> {
 
   TextEditingController _contoller = new TextEditingController();
 
-  final List<_PositionItem> _positionItems = <_PositionItem>[];
+  // final List<_PositionItem> _positionItems = <_PositionItem>[];
   var subscription;
 
   @override
